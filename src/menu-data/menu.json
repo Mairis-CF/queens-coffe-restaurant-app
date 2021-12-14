@@ -1,0 +1,165 @@
+{
+    "menu": [
+        {
+            "id": "C1",
+            "title": "Affogato Coffee",
+            "img": "/menu-media/affogato.jpg",
+            "price": 12000,
+            "type": "Coffee"
+        },
+        {
+            "id": "C2",
+            "title": "Biscoff Cloud Coffee",
+            "img": "/menu-media/biscoff-cloud-coffee.jpg",
+            "price": 10000,
+            "type": "Coffee"
+        },
+        {
+            "id": "C3",
+            "title": "Caramel Iced Latte",
+            "img": "/menu-media/Caramel-iced-latte.jpg",
+            "price": 8000,
+            "type": "Coffee"
+        },
+        {
+            "id": "D1",
+            "title": "Chocolate Cheesecake",
+            "img": "/menu-media/chocolate-cheescake.jpg",
+            "price": 15000,
+            "type": "Dessert"
+        },
+        {
+            "id": "D2",
+            "title": "Chocolate Chips Cookie",
+            "img": "/menu-media/chocolate-chips-cookie.jpg",
+            "price": 5000,
+            "type": "Dessert"
+        },
+        {
+            "id": "D3",
+            "title": "Chocolate Donut",
+            "img": "/menu-media/chocolate-donut.jpg",
+            "price": 8000,
+            "type": "Dessert"
+        },
+        {
+            "id": "D4",
+            "title": "Chocolate Cookie",
+            "img": "/menu-media/chocolatte-cookie.jpg",
+            "price": 5000,
+            "type": "Dessert"
+        },
+        {
+            "id": "D5",
+            "title": "Chocolate Cupcake",
+            "img": "/menu-media/Chocolatte-cupcake.jpg",
+            "price": 9000,
+            "type": "Dessert"
+        },
+        {
+            "id": "C4",
+            "title": "Coconut Cream Latte",
+            "img": "/menu-media/coconut-cream-latte.jpg",
+            "price": 7000,
+            "type": "Coffee"
+        },
+        {
+            "id": "C5",
+            "title": "Coconut Mocca",
+            "img": "/menu-media/coconut-mocca.jpg",
+            "price": 7000,
+            "type": "Coffee"
+        },
+        {
+            "id": "D6",
+            "title": "Cookies And Cream Donut",
+            "img": "/menu-media/cookies-and-cream-donut.jpg",
+            "price": 8000,
+            "type": "Dessert"
+        },
+        {
+            "id": "D7",
+            "title": "Croassaint",
+            "img": "/menu-media/croassaint.jpg",
+            "price": 6000,
+            "type": "Dessert"
+        },
+        {
+            "id": "C6",
+            "title": "Dalgona Coffee",
+            "img": "/menu-media/Dalgona.jpg",
+            "price": 8000,
+            "type": "Coffee"
+        },
+        {
+            "id": "C7",
+            "title": "Hot Chocolate Marshmallow",
+            "img": "/menu-media/hot-chocolatte-marshmallow.jpg",
+            "price": 7000,
+            "type": "Coffee"
+        },
+        {
+            "id": "C8",
+            "title": "Iced Americano",
+            "img": "/menu-media/Iced-americano.jpg",
+            "price": 6000,
+            "type": "Coffee"
+        },
+        {
+            "id": "C9",
+            "title": "Irish Coffee Milkshake",
+            "img": "/menu-media/Irish-coffe-milkshake.jpg",
+            "price": 10000,
+            "type": "Coffee"
+        },
+        {
+            "id": "C10",
+            "title": "Iced Latte",
+            "img": "/menu-media/Latte.jpg",
+            "price": 7000,
+            "type": "Coffee"
+        },
+        {
+            "id": "D8",
+            "title": "Pancakes",
+            "img": "/menu-media/pancake.jpg",
+            "price": 6000,
+            "type": "Dessert"
+        },
+        {
+            "id": "C11",
+            "title": "Pumpkin Chai Latte",
+            "img": "/menu-media/Pumpkin-chai-latte.jpg",
+            "price": 10000,
+            "type": "Coffee"
+        },
+        {
+            "id": "D9",
+            "title": "Strawberry Cupcake",
+            "img": "/menu-media/strawberry-cupcake.jpg",
+            "price": 9000,
+            "type": "Dessert"
+        },
+        {
+            "id": "D10",
+            "title": "Frozen Yogurt Cake",
+            "img": "/media-media/yogurt-cake.jpg",
+            "price": 10000,
+            "type": "Dessert"
+        },
+        {
+            "id": "C12",
+            "title": "Wiped Cream Chocolate",
+            "img": "/menu-media/wiped-cream-chocolatte.jpg",
+            "price": 10000,
+            "type": "Coffee"
+        },
+        {
+            "id": "C13",
+            "title": "Wiped Cream Coffee",
+            "img": "/menu-media/wiped-cream-coffe.jpg",
+            "price": 8000,
+            "type": "Coffee"
+        }
+    ]
+}
