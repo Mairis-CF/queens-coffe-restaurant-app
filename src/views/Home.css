@@ -69,3 +69,16 @@
     border: 5px solid #F0C3A4;
 }
 
+.home-btns-section p {
+    position: absolute;
+    top: 800px;
+
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+
+    cursor: pointer;
+}

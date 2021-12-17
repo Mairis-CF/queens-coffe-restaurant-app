@@ -28,7 +28,8 @@ const Home = () => {
             <Link to='/Cook'>Cook</Link>
           </button>
         </div>
-
+      
+      <p>Developed by <a href='https://github.com/Mairis-CF'>Mairis-CF</a> </p>
       </section>
 
     </section>
