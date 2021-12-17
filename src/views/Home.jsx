@@ -1,16 +1,37 @@
+import '../render-app/App.css';
+import './Home.css';
+import { cover, coffeeBeans, coffeeCup, logo } from './index-views';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <div>
-      <h2>Home view</h2>
-      <button>
-        <Link to='/Waiter'>Tables</Link>
-      </button>
-      <button>
-        <Link to='/Cook'>Cook</Link>
-      </button>
-    </div>
+    <section className='home-section'>
+     
+      <div className='cover-img' >
+        <img src={cover} alt='cover' />
+      </div>
+
+      <section className='home-btns-section'>
+       
+        <div className='home-logo'>
+          <img src={logo} alt='logo' />
+        </div>
+
+        <div className='home-btns'>
+          <button className='waiter-btn'>
+            <img src={coffeeCup} alt='coffee cup' />
+            <Link to='/Waiter'>Tables</Link>
+          </button>
+
+          <button className='cook-btn'>
+            <img src={coffeeBeans} alt='coffee beans' />
+            <Link to='/Cook'>Cook</Link>
+          </button>
+        </div>
+
+      </section>
+
+    </section>
   );
 };
 

@@ -1,13 +1,19 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Playfair+Display&display=swap');
+
+:root {
+
+  --primary-font: 'Playfair Display', serif;
+  --secondary-font: 'Montserrat', sans-serif;
+
+  --f-text-color: #AFC4D0;
+  --s-text-color: #F0C3A4;
+
+  --f-notification-color: #BF7656;
+  --s-notification-color: #AFC4D0;
+
+  --bg-color: #0C0F14;
+  --bg-container: #171D26;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
