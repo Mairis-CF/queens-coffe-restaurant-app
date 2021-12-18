@@ -1,15 +1,22 @@
-import { Link } from 'react-router-dom';
+import '../render-app/App.css';
+import '../index.css';
+import './Waiter.css';
+
+import Navbar from '../components/Navbar';
+import InputsTable from '../components/InputsTable';
+import OrderResume from '../components/OrderResume';
 
 const Waiter = () => {
     return (
-        <div>
-            <h2>Waiter view</h2>
-            <button>
-                <Link to='/'>
-                    Home
-                </Link>
-            </button> 
-        </div>
+        <section>
+            <Navbar />
+            <InputsTable />
+            <div className='waiter-header'>
+            <p>New Order</p>
+            </div>
+            <OrderResume />
+
+        </section>
     )
 }
 

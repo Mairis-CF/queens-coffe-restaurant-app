@@ -1,0 +1,60 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+
+    position: absolute;
+    width: 292px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+
+    background: var(--bg-container);
+
+    font-family: var( --primary-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 37px;
+
+}
+
+.navbar-logo {
+    margin: 2rem;
+}
+
+.menu-filter {
+    color: var(--s-text-color);
+    
+    display: flex;
+    flex-direction: column;
+
+    margin: 5rem 1rem 5rem;   
+
+}
+
+.menu-filter a {
+    margin: 1rem;
+}
+
+.waiter-nav-links {
+    color: var(--f-text-color);
+    
+    display: flex;
+    flex-direction: column;
+
+    margin: 5rem 1rem 5rem;   
+    width: 60%;
+}
+
+.waiter-nav-links a {
+    margin: 1rem;
+}
+
+.home-button {
+    margin-top: 2rem;
+    background: none;
+    border: none;
+}

@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from '../views/Home';
 import Waiter from '../views/Waiter';
 import Cook from '../views/Cook';
+import Orders from '../views/Orders';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
      <Route path='/' element={ <Home /> } />
      <Route path='/Waiter' element={ <Waiter /> } />
      <Route path='/Cook' element={ <Cook /> } />
+     <Route path='/Waiter/Orders' element={ <Orders/> } />
    </Routes>
    </BrowserRouter>
    

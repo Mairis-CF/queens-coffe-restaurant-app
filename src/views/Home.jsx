@@ -1,6 +1,6 @@
 import '../render-app/App.css';
 import './Home.css';
-import { cover, coffeeBeans, coffeeCup, logo } from './index-views';
+import { cover, coffeeBeans, coffeeCup, logo } from '../assets/assets';
 import { Link } from 'react-router-dom';
 
 const Home = () => {

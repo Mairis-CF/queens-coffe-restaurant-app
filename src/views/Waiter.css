@@ -1,0 +1,12 @@
+.waiter-header {
+    color: var(--f-text-color);
+    position: absolute;
+
+    left: 328px;
+    top: 57px;
+
+    font-family: var(--primary-font);
+    font-size: 32px;
+    line-height: 43px;
+
+}

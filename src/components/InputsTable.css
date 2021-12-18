@@ -1,0 +1,36 @@
+.order-client,
+.order-table {
+    position: absolute;
+    color: var(--s-text-color);
+    background: transparent;
+    
+    width: 20%;
+    border: 0;
+    border-bottom: 2px solid ;
+    outline: 0;
+    padding: 7px 0;
+    transition: border-color 0.2s;
+
+
+    left: 1008px;
+    top: 20px;
+    margin: 2rem;
+
+    font-family: var(--secondary-font);
+    font-size: 28px;
+    line-height: 34px;
+}
+
+
+.order-client::placeholder,
+.order-table::placeholder {
+    color: var(--s-text-color);
+}
+
+.order-table {
+    position: absolute;
+    width: 20%;
+    left: 700px;
+    top: 20px;
+}
+
