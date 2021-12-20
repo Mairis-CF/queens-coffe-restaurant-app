@@ -6,7 +6,7 @@ const OrderResume = () => {
             <h4>Order Resume</h4>
 
             <div className='order-resume-table'>
-
+                //Insertar los items del pedido
             </div>
 
             <div className='order-resume-btns'>

@@ -1,0 +1,50 @@
+.item-menu-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.item-menu img {
+    width: 178px;
+    height: 225px;
+    left: 458px;
+
+    margin: 0.5rem 1rem 0;
+}
+
+.item-menu {
+    width: 100%;
+    height: 244px;
+
+    background-color: var(--bg-container);
+    border-radius: 15px;
+
+    font-family: var(--secondary-font);
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.item-menu-content {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: -12rem 1rem 0 15rem;
+}
+
+.item-menu-content button {
+
+    background: transparent;
+    border: none;
+    width: 4rem;
+    margin: 1rem;
+}
+
+
+
+ .item-menu-add-btn img {
+    width: 58px;
+    height: 54px;
+ }
+
