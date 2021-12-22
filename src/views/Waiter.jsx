@@ -1,3 +1,5 @@
+import { useState } from 'react';
+
 import '../render-app/App.css';
 import '../index.css';
 import './Waiter.css';
@@ -7,14 +9,42 @@ import InputsTable from '../components/InputsTable';
 import OrderResume from '../components/OrderResume';
 
 const Waiter = () => {
+
+    const [ itemOrder, setItemOrder ] = useState([]);
+    const [ orderPrice, setOrderPrice ] = useState(0);
+    const [ clientName, setClientName ] = useState('');
+    const [ clientTable, setClientTable ] = useState('');
+    const itemQuantity = 1;
+
     return (
         <section>
-            <Navbar />
-            <InputsTable />
+            <Navbar
+            itemOrder={itemOrder}
+            setItemOrder={setItemOrder}
+            orderPrice={orderPrice}
+            setOrderPrice={setOrderPrice}
+            />
+
+            <InputsTable 
+            clientName={clientName}
+            setClientName={setClientName}
+            clientTable={clientTable}
+            setClientTable={setClientTable}
+            />
+
             <div className='waiter-header'>
             <p>New Order</p>
             </div>
-            <OrderResume />
+
+            <OrderResume 
+            orderPrice={orderPrice}
+            setOrderPrice={setOrderPrice}
+            itemOrder={itemOrder}
+            setItemOrder={setItemOrder}
+            itemQuantity={itemQuantity}
+            setClientName={setClientName}
+            setClientTable={setClientTable}
+            />
 
         </section>
     )

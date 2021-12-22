@@ -7,3 +7,5 @@ export { default as homeButton } from './home button.svg';
 export { default as homeButtonBrown } from './home button brown.svg';
 export { default as addButton } from './add button.svg';
 export { default as deleteItemButton } from './delete item button.svg';
+export { default as plusButton } from './plusButton.svg';
+export { default as minusButton } from './minusButton.svg';

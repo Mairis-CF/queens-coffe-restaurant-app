@@ -1,10 +1,11 @@
 import './InputsTable.css';
 
-const InputsTable = () => {
+const InputsTable = ({ clientTable, setClientTable, clientName, setClientName  }) => {
+
     return (
         <div className='inputs-table'>
-            <input type='text' className='order-client' placeholder='Costumer'/>
-            <input type='text' className='order-table' placeholder='Nº table' />
+            <input type='text' onChange={e => setClientName(clientName = e.target.value)} className='order-client' placeholder='Costumer' required />
+            <input type='text' onChange={e => setClientTable(clientTable = e.target.value)} className='order-table' placeholder='Nº table'  required />
         </div>
     )
 }

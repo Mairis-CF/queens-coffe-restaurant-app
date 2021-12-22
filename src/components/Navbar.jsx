@@ -9,7 +9,7 @@ import menuData from '../menu-data/menu.json';
 //Accediendo a la data en el archivo json menu.
 const menu = menuData.menu;
 
-const Navbar = () => {
+const Navbar = ({ itemOrder, setItemOrder, orderPrice, setOrderPrice  }) => {
     const [menuFilter, setMenuFilter] = useState('');
 
     return (
@@ -23,7 +23,7 @@ const Navbar = () => {
                     <label htmlFor='Coffee'>Coffees</label>
                     <label htmlFor='Dessert'>Desserts</label>
                 </div>
-
+            {/*Links para navegar por la interfaz de meseros */}
                 <div className='waiter-nav-links'>
                     <Link to='/Waiter/Orders'>Orders</Link>
                     <Link to='/Waiter'>New Order</Link>
@@ -52,6 +52,10 @@ const Navbar = () => {
                                     itemName={item.title}
                                     itemId={item.id}
                                     itemType={item.type}
+                                    itemOrder={itemOrder}
+                                    setItemOrder={setItemOrder}
+                                    orderPrice={orderPrice}
+                                    setOrderPrice={setOrderPrice} 
                                 />
                             ))
                     }
